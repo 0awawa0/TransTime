@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605545459221",
+    "firebase_url": "https://transporttimetable-4f39e.firebaseio.com",
+    "project_id": "transporttimetable-4f39e",
+    "storage_bucket": "transporttimetable-4f39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605545459221:android:dfc19610265fb9fa",
+        "android_client_info": {
+          "package_name": "com.projects.awawa.transporttimetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605545459221-r1vqnb268fbbus13ffkr53a4p5srjd7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projects.awawa.transporttimetable",
+            "certificate_hash": "7019483e586b344b63ce35c92e7c448d84f65e99"
+          }
+        },
+        {
+          "client_id": "605545459221-2vbbmlp42c8rt7rd0ghtlc4mvatljsot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfqUhJyIru3CJdKK8l864KnDj14Ku9D9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605545459221-2vbbmlp42c8rt7rd0ghtlc4mvatljsot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

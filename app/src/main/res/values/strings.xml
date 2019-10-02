@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TransTime</string>
+
+    <string name="Tram">Трамвай</string>
+    <string name="Trolley">Троллейбус</string>
+    <string name="Bus">Автобус</string>
+    <string name="Marsh">Маршрутное такси</string>
+    <string name="Taxi">Такси</string>
+    <string name="cityDonetsk">ДОНЕЦК</string>
+    <string name="about">О нас</string>
+    <string name="firstRespNum1">0505251515</string>
+    <string name="firstRespNum2">0665992146</string>
+    <string name="firstRespNum3">0713465884</string>
+    <string name="firstRespNum4">555</string>
+    <string name="supportMail">mail.0awawa0@gmail.com</string>
+    <string-array name="firstRespNums">
+        <item>0505251515</item>
+        <item>0665992146</item>
+        <item>0713465884</item>
+        <item>555</item>
+    </string-array>
+</resources>

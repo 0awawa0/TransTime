@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#1A1A59</color>
+    <color name="black">#000000</color>
+    <color name="colorTramvaj">#FF7D8C</color>
+    <color name="colorTrolley">#E892F4</color>
+    <color name="colorBus">#88A9F5</color>
+    <color name="colorMarsh">#00CD62</color>
+    <color name="colorTaxi">#FFF000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCityTitle">#9ABCFF</color>
+    <color name="colorButton">#aae0e7fc</color>
+    <color name="colorNumberBack">#aa8FC3E5</color>
+    <color name="colorTableHour">#de949494</color>
+    <color name="colorTableMinute">#aaBBB4B4</color>
+    <color name="colorRed">#B80F0F</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorTableMinutes1">#bdefefef</color>
+    <color name="colorTableMinutes2">#ddcacaca</color>
+    <color name="colorLink">#5D63DF</color>
+    <color name="colorGreen">#2ABB2A</color>
+</resources>

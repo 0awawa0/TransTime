@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorButton"
+        android:orientation="vertical">
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/layoutTitleAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvAbout"
+            android:background="@color/colorCityTitle">
+            <ImageButton
+                android:id="@+id/backArrowAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_back_arrow"
+                android:background="#00000000"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:onClick="goBack"/>
+        <TextView
+            android:id="@+id/titleAbout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/backArrowAbout"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="О разработчиках"
+            android:textColor="@color/textColor"
+            android:textSize="26sp"/>
+        </android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:id="@+id/tvAbout"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/layoutTitleAbout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"
+                android:text="@string/app_name"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Версия 1.2.1"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Поддержка:"
+                android:layout_marginLeft="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/supportMail"
+                android:textColor="#4C75A3"
+                android:onClick="sendMail"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4C75A3"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:text="vk.com/transtimedonetsk"
+                android:onClick="goVK"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.gms.ads.AdView
+            ads:layout_constraintBottom_toBottomOf="parent"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            ads:layout_constraintRight_toRightOf="parent"
+            android:background="@color/colorButton"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="########################">
+        </com.google.android.gms.ads.AdView>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

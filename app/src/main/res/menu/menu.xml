@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_about"
+        android:title="О разработчиках">
+    </item>
+
+    <item
+        android:id="@+id/menu_city"
+        android:title="Выбрать город">
+    </item>
+
+    <item
+        android:id="@+id/db_info"
+        android:title="Актуальность базы данных">
+    </item>
+</menu>
